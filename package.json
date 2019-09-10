@@ -32,10 +32,10 @@
     "@types/pdfkit": "^0.10.2",
     "@types/qr-image": "^3.2.1",
     "pdfkit": "^0.10.0",
-    "qr-image": "^3.2.0",
-    "sucrase": "^3.10.1"
+    "qr-image": "^3.2.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "nodemon": "^1.19.2",
+    "sucrase": "^3.10.1"
   }
 }

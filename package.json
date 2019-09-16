@@ -1,6 +1,6 @@
 {
   "name": "dfe-print",
-  "version": "0.0.1",
+  "version": "0.0.1-dev",
   "description": "Pacote para impressão de documento fiscal eletrônico para TypeScript",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valdirmendesgt/dfe-print.git"
+    "url": "https://github.com/valdirmendesgt/dfe-print.git"
   },
   "bugs": {
     "url": "https://github.com/valdirmendesgt/dfe-print/issues"
@@ -29,12 +29,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@types/pdfkit": "^0.10.2",
-    "@types/qr-image": "^3.2.1",
     "pdfkit": "^0.10.0",
     "qr-image": "^3.2.0"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/pdfkit": "^0.10.2",
+    "@types/qr-image": "^3.2.1",
+    "jest": "^24.9.0",
     "nodemon": "^1.19.2",
     "sucrase": "^3.10.1"
   }
